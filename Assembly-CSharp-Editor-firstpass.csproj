@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{59360241-EB16-2749-602A-1AE8CEB2EB44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;IS_UNITYEDITOR_ANIMATIONS_AVAILABLE;IS_CANDLELIGHT_HYPERTEXT_AVAILABLE;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\BaseEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\HyperTextEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\HyperTextStylesEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\KeywordCollectionEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\KeywordsGlossaryEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\KeywordsTextDocumentEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Editors\LocalizableTextEditor.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\GUI\EditorGUIX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\GUI\EditorGUIXRedistributable.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\GUI\EditorStylesX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\GUI\SceneGUI.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Gizmos\EditorGizmos.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Interfaces\ISceneGUIContext.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Preferences\Editor Preferences\EditorPreference.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Preferences\Editor Preferences\EditorPreferenceMenu.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\FlushChildrenDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\FontStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextLinkStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextLinkSubclassDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextProcessorDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextQuadStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\HyperTextTextStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\InflectedFormDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\PopupDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\PropertyBackingFieldDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\RichTextStyleDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\StatusPropertyDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\TextAlignmentDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Property Drawers\TextureThumbnailDrawer.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Utilities\AssetDatabaseX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Utilities\EditorUtilityX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Utilities\ReflectionX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Utilities\SerializedPropertyX.cs" />
+     <Compile Include="Assets\Plugins\Candlelight\Library\Editor\Utilities\UnityFeatureDefineSymbols.cs" />
+     <None Include="Assets\Plugins\Candlelight\Asset Store Products\HyperText\Documentation\Readme.txt" />
+     <None Include="Assets\Plugins\Candlelight\Asset Store Products\HyperText\Examples\Shaders\AnimatedQuad.shader" />
+     <None Include="Assets\Plugins\Candlelight\Asset Store Products\HyperText\Examples\Quads\_licenses.txt" />
+     <None Include="Assets\Plugins\Candlelight\Asset Store Products\HyperText\Documentation\Changelog.txt" />
+     <None Include="Assets\Plugins\Candlelight\Asset Store Products\HyperText\Examples\Keywords\emoji - grinning.txt" />
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AF14A94C-DE82-DC23-D907-A50A716508D7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

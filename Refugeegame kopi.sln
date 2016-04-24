@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{077E5376-F1E7-B60C-0EA6-1F12509B4451}") = "Refugeegame kopi", "Assembly-CSharp-firstpass.csproj", "{AF14A94C-DE82-DC23-D907-A50A716508D7}"
+EndProject
+Project("{077E5376-F1E7-B60C-0EA6-1F12509B4451}") = "Refugeegame kopi", "Assembly-CSharp.csproj", "{FE74522A-25BE-568B-3E89-A9B9A13A0408}"
+EndProject
+Project("{077E5376-F1E7-B60C-0EA6-1F12509B4451}") = "Refugeegame kopi", "Assembly-CSharp-Editor-firstpass.csproj", "{59360241-EB16-2749-602A-1AE8CEB2EB44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF14A94C-DE82-DC23-D907-A50A716508D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF14A94C-DE82-DC23-D907-A50A716508D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF14A94C-DE82-DC23-D907-A50A716508D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF14A94C-DE82-DC23-D907-A50A716508D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE74522A-25BE-568B-3E89-A9B9A13A0408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE74522A-25BE-568B-3E89-A9B9A13A0408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE74522A-25BE-568B-3E89-A9B9A13A0408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE74522A-25BE-568B-3E89-A9B9A13A0408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59360241-EB16-2749-602A-1AE8CEB2EB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59360241-EB16-2749-602A-1AE8CEB2EB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59360241-EB16-2749-602A-1AE8CEB2EB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59360241-EB16-2749-602A-1AE8CEB2EB44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

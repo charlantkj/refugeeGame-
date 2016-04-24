@@ -1,0 +1,15 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="GameController">
+			<method name="singleButtonFunction"/>
+			<method name="choiceButton02Function"/>
+			<method name="choiceButton01Function"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="Candlelight.UI.HyperTextDemo.Popup">
+			<method name="Reveal"/>
+			<method name="Dismiss"/>
+		</type>
+	</assembly>
+</linker>
